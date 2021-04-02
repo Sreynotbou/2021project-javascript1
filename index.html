@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Favorite Foods</title>
     <link rel="stylesheet"href="css/app.css">
     <script src="js/app.js"defer></script>
 </head>
 <body>
-    
+   
+    <h1><u>Wellcome our restaurant foods</u></h1>
+    <div class="container">
+        <div class="search">
+            <h3>Please input name food(Menu)</h3>
+            <label>Favorite foods(ចំណង់ចំណូលអាហារ)</label><br>
+            <input type="text"id="searchId"placeholder="Favorite Food ចំណង់ចំណូលអាហារ">
+            <label>Name foods(ឈ្មេាះម្ហូប)</label><br>
+            <input type="text"id="searchId"placeholder="Name Food ឈ្មេាះម្ហូប">
+            <label>Price of foods (តម្លៃនៃម្ហូប)</label>
+            <input type="text"id="searchId"placeholder="Price តម្លៃ">
+        </div>
+        <div class="task">
+            <label>Add foods more(បន្ថែមនូវចំនួនមុខម្ហូប)</label><br>
+            <input type="text"id="add-task"placeholder="Add task">
+            <button>Add+</button>
+        </div>
+        <div class="listItem">
+            <ul>
+                <li><span class="task">Breakfast Foods</span><span class="delete">remove</span></li>
+                <li><span class="task">Lunch Foods</span><span class="delete">remove</span></li>
+                <li><span class="task">Dinner Foods</span><span class="delete">remove</span></li>
+                <li><span class="task">Sea food</span><span class="delete">remove</span></li>
+            </ul>
+        </div>
+    </div>
     
 </body>
 </html>

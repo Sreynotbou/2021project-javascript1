@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    background: #eee;
+    background: url('https://img2.10bestmedia.com/Images/Photos/264056/p-BaleenPatio_55_660x440.jpg');
+    background-size: contain;
+}
+h1{
+    text-align: center;
+    color: rgb(84, 24, 226);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    color:rgb(48, 9, 190);
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.container{
+    width: 400px;
+    background: rgb(182, 238, 252);
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    border: 10px solid rgb(180, 236, 189);
+    
+}
+.listItem{
+    background: #c6d6eb;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+    
+}
+li{
+    padding: 10px;
+    border-left: 1px solid;
+    margin-top:10px;
+    color: rgb(4, 5, 5);
+    font-family:cursive;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.search,.task{
+    padding: 10px;
+   
+}
+.search input{
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.task input{
+    width: 70%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    width: 28%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.delete{
+    background: rgb(223, 13, 13);
+    color:white;
+    padding: 1px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

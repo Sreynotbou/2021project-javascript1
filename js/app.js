@@ -1,6 +1,6 @@
 //  add value
 function removefood(event){
-    if(event.target.className==="delete"){
+    if(event.target.className==="remove"){
         let li=event.target.parentElement;
         li.remove();
     }
@@ -12,6 +12,7 @@ function createfood (event){
     if(food.value===""){
         return confirm("please enter your food name");
     }
+
     //  create book title:
     const foodlist=document.createElement('span');
     // call class task into book
@@ -21,8 +22,8 @@ function createfood (event){
 
     // create delect book button:
     const deletefood=document.createElement('span');
-    deletefood.classList.add('delete');
-    deletefood.textContent="delete";
+    deletefood.classList.add('remove');
+    deletefood.textContent="remove";
     // create new li
     const li=document.createElement('li');
     li.appendChild(foodlist);
@@ -48,7 +49,7 @@ searchfood.addEventListener('keyup',function(e){
             li.style.display="none";
         }else{
             li.style.display="";
+
         };
     }
 });
-v

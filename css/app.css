@@ -1,32 +1,38 @@
-body{
+body {
     font-family: sans-serif;
-    background: #eee;
-    background: url('https://img2.10bestmedia.com/Images/Photos/264056/p-BaleenPatio_55_660x440.jpg');
-    background-size: contain;
+    background:whitesmoke;
 }
-h1{
+.header h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #20b2aa;
+    width: 100%;
+    text-align:center;
+    background:rgb(207, 207, 241);
+    height: 10vh;
+    border: 1px solid greenyellow;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: -10px;
+    
+}
+p{
     text-align: center;
-    color: rgb(84, 24, 226);
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
-h3{
-    margin-left: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    color: tomato;
+    font-size: 20px;
 }
 label{
-    color:rgb(48, 9, 190);
-    margin-bottom: 20px;
     font-family: cursive;
+    color: blue;
 }
 .container{
-    width: 400px;
-    background: rgb(182, 238, 252);
+    width: 500px;
+    background:white;
     margin: auto;
-    flex-wrap: wrap;
     border-radius: 30px;
     margin-bottom: 100px;
-    border: 10px solid rgb(180, 236, 189);
     
 }
 .listItem{
@@ -58,6 +64,9 @@ li{
     margin-bottom: 10px;
     padding: 10px;
 }
+.search input:hover{
+    background:white;
+}
 .task input{
     width: 70%;
     box-sizing: border-box;
@@ -70,6 +79,9 @@ button{
     box-sizing: border-box;
     cursor: pointer;
 }
+button:hover{
+    background: orange;
+}
 .delete{
     background: rgb(223, 13, 13);
     color:white;
@@ -77,3 +89,7 @@ button{
     cursor: pointer;
     border-radius: 10px;
 }
+.delete:hover{
+    background: springgreen;
+}
+ /* show and hide */

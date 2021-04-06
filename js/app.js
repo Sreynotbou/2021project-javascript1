@@ -5,6 +5,11 @@ function removefood(event){
         li.remove();
     }
 }
+// function fruit(){
+//     var d=document.getElementById('fruit');
+//     var displaytext=d.options[d.selectedindex].text;
+//     document.getElementById("txtvalue").value=displaytext;
+// }
 //  for create delete file delete
 function createfood (event){
     const food=document.querySelector('#add-task');
@@ -12,7 +17,6 @@ function createfood (event){
     if(food.value===""){
         return confirm("please enter your food name");
     }
-
     //  create book title:
     const foodlist=document.createElement('span');
     // call class task into book

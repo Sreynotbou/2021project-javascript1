@@ -24,9 +24,14 @@ p{
     font-size: 19px;
 }
 label{
-    font-family: cursive;
+    
     color: blue;
     margin-left:5px;
+}
+.label1{
+    color:rgb(9, 151, 109);
+    font-size: 20px;
+    font-family: sans-serif;
 }
 .container{
     width: 500px;
@@ -34,7 +39,7 @@ label{
     margin: auto;
     border-radius: 30px;
     margin-bottom: 100px;
-    
+    border: 2px solid black;
 }
 .listItem{
     background:rgb(0,0,0,0.3);
@@ -49,7 +54,6 @@ li{
     border-left: 2px solid #f4511e7d;
     margin-top:10px;
     color: rgb(4, 5, 5);
-    font-family:cursive;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -65,6 +69,15 @@ li{
 }
 .search input:hover{
     background:white;
+}
+/* Select favourite juine */
+select {
+    padding: 10px;
+    width: 280px;
+    border:1px solid;
+    outline: none;
+    color: black;
+    font-size: 15px;
 }
 /* .price input{
     width: 74%;

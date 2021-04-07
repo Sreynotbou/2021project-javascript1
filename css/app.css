@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     /* background:url('https://i.pinimg.com/originals/f9/e9/3d/f9e93d1a3c8b1a4a55338838be0403d1.jpg'); */
-    background: url('https://ae01.alicdn.com/kf/UTB8OGEdfSbIXKJkSaefq6yasXXas/Original-HD-hand-painted-fast-food-restaurant-wall-professional-production-wallpaper-mural-custom-photo-wall.jpg');
+    background: url('https://media-cdn.tripadvisor.com/media/photo-s/18/6e/58/25/khmer-food.jpg');
     background-size:cover;
 }
 .header h1{
@@ -21,7 +21,7 @@ body {
 p{
     text-align: center;
     font-family: sans-serif;
-    color:red;
+    color:rgb(5, 34, 37);
     font-size: 19px;
 }
 label{
@@ -30,13 +30,13 @@ label{
     margin-left:5px;
 }
 .label1{
-    color:blue;
+    color:green;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .container{
     width: 500px;
-    background:white;
+    background:#d9eefa;
     margin: auto;
     border-radius: 30px;
     margin-bottom: 30px;

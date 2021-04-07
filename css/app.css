@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
-    background:url('https://i.pinimg.com/originals/f9/e9/3d/f9e93d1a3c8b1a4a55338838be0403d1.jpg');
-    background-size: contain;
+    /* background:url('https://i.pinimg.com/originals/f9/e9/3d/f9e93d1a3c8b1a4a55338838be0403d1.jpg'); */
+    background: url('https://ae01.alicdn.com/kf/UTB8OGEdfSbIXKJkSaefq6yasXXas/Original-HD-hand-painted-fast-food-restaurant-wall-professional-production-wallpaper-mural-custom-photo-wall.jpg');
+    background-size:cover;
 }
 .header h1{
     font-size: 25px;
@@ -9,7 +10,7 @@ body {
     color: #d11616;
     width: 100%;
     text-align:center;
-    background:rgb(241, 243, 245);
+    background:rgb(205, 224, 243);
     height: 10vh;
     border: 1px solid greenyellow;
     margin-bottom: 20px;
@@ -29,7 +30,7 @@ label{
     margin-left:5px;
 }
 .label1{
-    color:rgb(9, 151, 109);
+    color:blue;
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -38,11 +39,11 @@ label{
     background:white;
     margin: auto;
     border-radius: 30px;
-    margin-bottom: 100px;
-    border: 2px solid black;
+    margin-bottom: 30px;
+    border: 2px solid rgb(0,0,0,0.1)
 }
 .listItem{
-    background:rgb(0,0,0,0.3);
+    background:rgb(0,0,0,0.2);
     flex-wrap: wrap;
 }
 ul{
@@ -61,38 +62,41 @@ li{
 .search,.task{
     padding: 10px;
 }
-.search input{
+#date{
     width:100%;
     box-sizing: border-box;
     margin-bottom: 10px;
     padding: 10px;
 }
-.search input:hover{
-    background:white;
+#price{
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#quanity{
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+#searchId{
+    width:100%;
+    margin-top:10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 14px;
 }
 /* Select favourite juine */
 select {
     padding: 10px;
-    width: 290px;
+    width: 300px;
     border:1px solid;
     outline: none;
-    color: black;
+    color:black;
     font-size: 15px;
 }
-/* .price input{
-    width: 74%;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    padding: 10px;
-    margin-left: 10px;
-} */
-/* .button1{
-    padding: 10px;
-    width: 20%;
-    box-sizing: border-box;
-    cursor: pointer;
-    background: green
-} */
 .task input{
     width: 73%;
     box-sizing: border-box;
@@ -101,7 +105,7 @@ select {
 }
 button{
     padding: 10px;
-    width: 23%;
+    width: 25%;
     box-sizing: border-box;
     cursor: pointer;
     background: blue;

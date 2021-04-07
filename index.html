@@ -15,22 +15,20 @@
     <div class="container">
         <div class="search">
             <p><u><b>ស្វាគមន៏មកកាន់បញ្ចីមុខម្ហូបនៃហាងនាងខ្ញំុ</b></u></p>
-            <label>Favourite food(អាហារដែរអ្នកចូលចិត្ត)</label><br>
-            <input type="text" id="searchId" placeholder="Name food ឈ្មេាះម្ហូប">
             <label>Note date(កំណត់ថ្ងៃខែឆ្នាំទិញក្នុងបញ្ចីម្ហូប)</label>
-            <input type="date"id="searchId"placeholder="date">
-            <label>Note Time(កំណត់ពេលវេលាក្នុងបញ្ចីម្ហូប)</label>
-            <input type="time"id="searchId"placeholder="time">
-            <!-- <label>Note date in week(កំណត់ពេលវេលាក្នុងមួយសប្ដាហ៏ក្នុងបញ្ចីម្ហូប)</label>
-            <input type="week"id="searchId"placeholder="Week"> -->
+            <input type="date"id="date"placeholder="date">
+            <label>Price</label>
+            <input type="text"id="price"placeholder="price 15$">
+            <label> Quanity of food</label>
+            <input type="text"id="quanity"placeholder="Quanity (ចំនួននៃការកម្នង់ម្ហូប)">
         </div>
-         Choose your favorite drink:
-        <select name="fruit" id="fruit">
-            <option value="Orange Juince">Orange juice</option>
-            <option value="Fruite Junice">Fruit juice</option>
-            <option value="Coconut Water">Coconut water</option>
+         Choose your favorite food:
+        <select name="food" id="selecte">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <section value="Sea food">Sea food</section>
         </select>
-        
         <div class="task">
             <label>Task add food(ការបន្ថែមនៃចំនួនមុខម្ហូប)</label><br>
             <input type="text" id="add-task" placeholder="Add food">
@@ -38,7 +36,9 @@
         </div>
         <div class="listItem">
             <ul>
-                <label class="label1"><u>Type of food (ប្រភេទនៃអារហារ)</u></label>
+                <label class="label1"><u>Type of food (ប្រភេទនៃអារហារ)</u></label><br><br>
+                <label>Favourite food(អាហារដែរអ្នកចូលចិត្ត)</label><br>
+                <input type="text" id="searchId" placeholder="Search food ឈ្មេាះម្ហូប">
                 <li><span class="task">Breakfast food</span> <span class="remove">remove</span></li>
                 <li><span class="task">Lunch food</span> <span class="remove">remove</span></li>
                 <li><span class="task">Dinner food</span> <span class="remove">remove</span></li>

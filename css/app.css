@@ -20,9 +20,9 @@ body {
 }
 p{
     text-align: center;
-    font-family: sans-serif;
-    color:rgb(5, 34, 37);
-    font-size: 19px;
+    font-family:cursive;
+    color:rgb(172, 148, 209);
+    font-size:20px;
 }
 label{
     
@@ -40,11 +40,10 @@ label{
     margin: auto;
     border-radius: 30px;
     margin-bottom: 30px;
-    border: 2px solid rgb(0,0,0,0.1)
+    border:3px solid rgb(172, 172, 175);
 }
 .listItem{
     background:rgb(0,0,0,0.2);
-    flex-wrap: wrap;
 }
 ul{
     list-style: none;

@@ -21,7 +21,7 @@ function createfood (event){
   const date =document.querySelector('#date');
   const selecte =document.querySelector('#selecte');
   const price=document.querySelector('#price');
-  const quanity=document.querySelector('#quanity');
+  const quanity=document.querySelector('#quantity');
 // create delect food button:
   const deletefood=document.createElement('span');
   deletefood.classList.add('remove');
@@ -29,7 +29,7 @@ function createfood (event){
 // create new li
   const li=document.createElement('li');
 //  add date selecte to li:
-  li.textContent=date.value + " | " +selecte.value + " | " + price.value +" | " + quanity.value + " | ";
+  li.textContent=date.value + " | " +selecte.value + " | " + price.value +" | " + quantity.value + " | ";
   li.appendChild(foodlist);
   li.appendChild(deletefood);
 // add li into Ul
